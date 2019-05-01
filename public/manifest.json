@@ -1,0 +1,56 @@
+{
+  "name": "Freedcamp Test Creator",
+  "description": "The ultimate way to make testing fun!",
+  "manifest_version": 2,
+  "devtools_page": "devtools.html",
+  "browser_action": {
+    "default_title": "Freedcamp Test Creator",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "react16.png",
+      "48": "react48.png",
+      "128": "react128.png"
+    }
+  },
+  "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "activeTab",
+    "tabs",
+    "storage",
+    "clipboardWrite"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/content.js",
+        "js/background.js",
+        "js/panel.js",
+        "index.css",
+        "index.js",
+        "index.css.map",
+        "index.js.map"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "react16.png",
+    "48": "react48.png",
+    "128": "react128.png"
+  },
+  "version": "1.0"
+}

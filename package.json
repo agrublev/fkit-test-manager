@@ -1,0 +1,24 @@
+{
+  "name": "fkit-test-manager",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  },
+  "scripts": {
+    "s": "parcel watch src/index.js --public-url ./ --out-dir build --out-file index.js --no-hmr",
+    "b": "parcel build src/index.js --public-url ./ --out-dir build  --out-file index.js",
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.0.0",
+    "prettier": "^1.17.0"
+  }
+}
