@@ -1,19 +1,48 @@
-![alt text](https://raw.githubusercontent.com/FullStack-Academy-Kiev/react-chrome-extension/master/react-chrome-extension.png)
 
-This Chrome Extension was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+<h1 align="center">
+  <br>
+  <a href="http://www.freedcamp.com/"><img src="https://cdnme.s3.amazonaws.com/cdn/ef3a-4759-logo.svg" alt="Freedcamp" width="200"></a>
+  <br>
+  Freedcamp Test Manager
+  <br>
+</h1>
 
-1) ```npm i```
-2) ```yarn build```
-3) Go to ```chrome://extensions``` in Chrome
-4) Ensure that the Developer mode checkbox in the top right-hand corner is checked
-5) Click Load unpacked extension to pop up a file-selection dialog & select directory ```build``` in your repository.
-6) Ensure that the enabled box next to your chrome extension is checked so you can see it in action
+<h4 align="center">Easy testing, why waste time doing repetitive things?</h4>
 
-Doc Instruction - 
-[chrome extension docx](https://github.com/FullStack-Academy-Kiev/react-chrome-extension/blob/master/chrome-extension-doc.docx)
+<p align="center">
+<img src="https://img.shields.io/github/languages/code-size/agrublev/fkit-test-manager.svg?style=for-the-badge">
+      <img src="https://img.shields.io/github/stars/agrublev/fkit-test-manager.svg?style=for-the-badge">
+    <img src="https://img.shields.io/chrome-web-store/v/xxxxx.svg?style=for-the-badge">
+</p>
 
-React App in Popup - ```master``` branch
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
 
-React App in Content Script - ```react-content-script``` branch (to see App go to ```https://www.google.com/```)
+![screenshot](https://cdnme.s3.amazonaws.com/cdn/20a2-971b-screen.png)
 
-Vanila JS example for Popup in branch ```popup```, content setting in ```content-settings``` and context menu in branch ```contextmenu```
+## Key Features
+
+* it's amazing
+* you'll love it
+* it's free
+
+## How To Use
+
+Download it!
+
+## Download
+
+Here [download](https://chrome.com) yah go!
+
+## License
+
+MIT
+
+---
+
